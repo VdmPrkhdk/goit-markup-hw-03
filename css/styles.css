@@ -59,10 +59,12 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	align-content: center;
 	flex-wrap: wrap;
 }
 .main-nav {
-	display: flex;
+	align-content: center;
+	/* display: flex; */
 	gap: 50px;
 }
 .main-nav a:hover,
