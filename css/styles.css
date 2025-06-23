@@ -55,7 +55,7 @@ button {
 }
 header {
 	padding: 0 115px;
-	height: 80px;
+
 	max-width: 100%;
 	align-content: center;
 }
@@ -148,6 +148,7 @@ header {
 }
 .prioriti-container ul {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 30px;
 	list-style: none;
 	margin: 0 auto;
@@ -321,6 +322,7 @@ header {
 .portfolio-galery {
 	border: 1px solid rgb(238, 238, 238);
 	background: rgb(255, 255, 255);
+	text-align: center;
 }
 .portfolio img {
 	margin: 0;
@@ -434,7 +436,7 @@ footer h3 {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background-image: url(/images/icons/icon_sprites.png);
+	background-image: url(../images/icons/icon_sprites.png);
 	background-repeat: no-repeat;
 	background-size: 64px 32px;
 	margin-right: 5px;
