@@ -146,7 +146,11 @@ header {
 .prioriti-container {
 	padding: 94px 115px;
 }
+.item-prioriti {
+	width: 270px;
+}
 .prioriti-container ul {
+	flex-direction: row;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
