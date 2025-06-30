@@ -144,15 +144,12 @@ header {
 	top: 200px;
 }
 .prioriti-container {
-	display: flex;
 	padding: 94px 0;
-	border: 1px solid black;
 }
 .item-prioriti {
 	width: 270px;
 }
 .prioriti-container ul {
-	border: 1px solid black;
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
